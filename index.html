@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DOM Activity 3</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- compatibility sa IE -->	
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge"> 
+
+<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+<!-- fontawesome icon -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class="container">
+
+		<header>
+			<h1> HARRY POTTER BOOKS</h1>
+		</header>
+
+		<main>
+
+			<div class="main-dashboard">
+				
+				<h3 class="inline-blocked"><button class="pindot"><i class="fas fa-tachometer-alt"></i> Dashboard</button></h3> <!-- galing sa fontawesome yung icon -->
+			
+				<div class="dashboard-thumbnail">
+					<div id="post-circle" class="dashboard-circles">
+						<i class="fas fa-file"></i>
+					</div>
+					<div class="inlined-block">
+						<p class="dashboard-text">5</p>
+						<p class="dashboard-text">posts</p>
+					</div>
+				</div> <!-- end of dashboard thumbnail file -->
+		
+				<div class="dashboard-thumbnail">
+
+					<div id="image-circle" class="dashboard-circles">
+						<i class="fas fa-images"></i>
+					</div>
+
+					<div class="inlined-block">
+						<p class="dashboard-text">13</p>
+						<p class="dashboard-text">images</p>
+					</div>
+				</div> <!-- end of dashboard thumbnail image-->
+			
+			</div> <!-- end of main-dashboard -->
+
+			<div>
+				<h3>
+					<button class="pindot">
+						<i class="fas fa-plus-circle"></i> New Post</h3>
+					</button>
+
+				<form class="hide-overflow" method="" action="">
+
+					<input id="post-title" type="text" name="post" placeholder="Enter your post title">
+					<input id="post-content" type="text" name="content" placeholder="Enter your post content here">
+
+					<button id="btn-publish" class="btn btn-blue" type="submit" name="button">Publish</button>					
+				</form>
+
+			</div> <!-- end new post -->
+
+			<div>
+
+				<h3><button class="pindot"><i class="fas fa-cloud-upload-alt"></i> Upload Images</button></h3>
+
+				<div class="img-set-holder">
+					<img src="assets/images/hp1.jpg" class="img-set">
+					<img src="assets/images/hp2.jpg" class="img-set">
+					<img src="assets/images/hp3.png" class="img-set">
+					<img src="assets/images/hp4.jpg" class="img-set">
+					<img src="assets/images/hp5.jpg" class="img-set">
+					<!-- <img src="assets/images/hp6.jpg" class="img-set">
+					<img src="assets/images/hp7.jpg" class="img-set">	 -->
+				</div>
+
+			</div> <!-- end of image gallery -->
+
+			<form class="hide-overflow">
+
+				<button id="btn-browse" class="btn btn-blue">Browse</button>
+				<button id="btn-upload" class="btn btn-green">Upload</button>
+				
+			</form> <!-- end of form -->
+
+		</main> <!-- end of main -->
+
+		<footer>
+			<p>Midorenji &copy; 2018</p>
+		</footer> <!-- end of footer -->
+
+	</div><!-- end of container -->
+</body>
+</html>
